@@ -429,3 +429,119 @@ textarea.form-control{
         margin-bottom: auto;
     }
 }
+
+@media (min-width: 992px){
+    section{
+        min-height: 103vh;
+    }
+
+    section h1, section p{
+        text-align: center;
+    }
+
+    section p{
+        max-width: 60%;
+        font-weight: 200;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: .7rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .container {
+        max-width: 960px;
+    }
+
+    .group-img img{
+        max-width: 260px;
+    }
+
+    .method-payment img{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .list-inline .list-inline-item{
+        max-height: 1.3em;
+    }
+
+    .media-icon{
+        font-size: 1.2rem;
+    }
+
+    #home::after {
+        bottom: -50%;
+        transform: rotate(-20deg);
+        height: 100%;
+        left: -30%;
+    }
+
+    #home h1, #home h4{
+        text-align: left;
+    }
+
+    #home h1, #home h4, #home p{
+        max-width: 80%;
+        margin: unset;
+    }
+
+    #home h1{
+        font-size: 5.5rem;
+    }
+
+    #home h4{
+        font-size: 2rem;
+        letter-spacing: .03em;
+        margin-bottom: .5rem;
+    }
+
+    #home p{
+        text-align: justify;
+    }
+
+    #home .container, #home .col{
+        padding: unset;
+    }
+
+    #home .row{
+        flex-direction: row;
+    }
+
+    #home img{
+        position: absolute;
+        bottom: 5%;
+        right: 0;
+        width: 60%;
+    }
+
+    #about .row{
+        margin-left: -2rem;
+        margin-right: -2rem;
+    }
+
+    #donate h6{
+        font-size: 1.1rem;
+    }
+
+    .ml-lg-auto{
+        margin-left: auto;
+    }
+    
+    footer{
+        position: relative;
+    }
+
+    footer .subtitle{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (min-width: 1200px){
+.container {
+    max-width: 1140px;
+}
+}
