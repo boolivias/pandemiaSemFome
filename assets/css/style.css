@@ -330,3 +330,102 @@ textarea.form-control{
     flex-direction: column;
     padding-bottom: 0px;
 }
+
+@media (min-width: 768px){
+    html{
+        font-size: 1.3rem;
+    }
+
+    footer{
+        font-size: 1rem;
+    }
+    
+    section p{
+        font-weight: 300;
+        font-size: .9rem;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        min-height: 80vh;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .row{
+        flex-direction: row;
+    }
+
+    .col{
+        flex-grow: 1;
+        flex-basis: 0;
+    }
+    
+    .list-inline{
+        display: block;
+        float: right;
+    }
+
+    .list-inline .list-inline-item{
+        float: left;
+    }
+
+    .method-payment{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .method-payment img{
+        width: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .btn-submit{
+        max-width: 200px;
+    }
+
+    .list-inline .list-inline-item{
+        max-height: calc(1.3em + .9em);
+    }
+
+    .media-icon{
+        max-width: calc(1.3em + .9em);
+    }
+
+    #home .row{
+        flex-direction: column;
+    }
+
+    #home::after{
+        bottom: -15%;
+        transform: rotate(-10deg);
+    }
+
+    #home img{
+        margin-top: 1rem;
+    }
+
+    #donate h6{
+        font-size: .9rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .mt-md-3{
+        margin-top: 1rem;
+    }
+
+    .mb-md-3{
+        margin-bottom: 1rem;
+    }
+
+    .mt-md-auto, .my-md-auto{
+        margin-top: auto;
+    }
+
+    .mb-md-auto, .my-md-auto{
+        margin-bottom: auto;
+    }
+}
