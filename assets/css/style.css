@@ -160,6 +160,10 @@ footer .row{
     cursor: pointer;
 }
 
+.media-icon:hover{
+    opacity: 1;
+}
+
 .group-img{
     text-align: center;
     height: auto;
